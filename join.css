@@ -1,0 +1,86 @@
+.Subscribe-btn{
+    background-color: #E95A08;
+ margin-bottom:10px;
+    height: 35px;
+    width: 10%;
+    padding: 0 15px;
+    font-size: 60%;
+    color: white;
+    cursor: pointer;
+    border:none;
+}
+.Subscribe-box{
+        background-color: white;
+ margin-bottom:10px;
+    height: 35px;
+    width: 30%;
+    padding: 0 20px;
+    cursor: pointer;
+    border:none;
+}
+ .join-heading{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+
+    margin-top: 100px;
+    margin-left: 0;
+    max-width: 1897px;
+    height:500px;
+    max-height: 533px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 350px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif ;
+    font-size: 40px;
+    overflow-x: hidden;
+    margin-right: 0;
+}
+.join-form{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:576px) {
+ 
+      body .join-section{
+      margin-left:0 ;
+    }
+   .join-heading {
+    overflow-x: hidden;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+     height: 300px;
+     width: 90%;
+     max-width: 576px;
+justify-content: center;
+align-items: center;
+      }
+
+  .join-heading h1 {
+    margin-top: 100px;
+    font-size: 1.75rem; 
+  }
+
+  .join-form {
+ 
+    width: 100%;
+    
+  }
+
+  .join-form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .join-form button {
+    width: 60%;
+    height: 52px;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

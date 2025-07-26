@@ -1,0 +1,54 @@
+.komola{
+  color: #E95A08;
+}
+.banner-heading{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+   
+}
+.banner-text{
+    font-family:"Inter", sans-serif ;
+    color:rgba(0, 0, 0, 0.5);
+    margin: 0 0 20px;
+    line-height: 1.2;
+    padding-right: 20px;
+    flex: 1;
+  
+}
+section .banner{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+margin-top: 140px;
+}
+.banner-img{
+    width:50%;
+    border-radius: 10px;
+
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 1.6;}
+   
+    @media screen  and (max-width:576px){
+
+        section .banner{
+            flex-direction: column;
+       
+        }
+        .banner-img{
+          width: 100%;
+            height: auto;
+            display: block;
+       
+    }
+    
+    .banner-text br{
+
+    display: none;}
+    .banner-heading{
+        font-size: 1.25rem;
+    }
+            
+}

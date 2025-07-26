@@ -1,0 +1,102 @@
+section .latest-deal{
+    margin-top: 150px;
+    text-align: center;
+   
+}
+ .latest-heading{ font-size: 2em;
+    font-family:'Noto Serif', serif ;
+     margin-bottom: 2px;
+}
+.latest-deal p{
+    font-size: 1.25em;
+}
+
+      .offer-section {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-family:'Noto Serif', serif ;
+    }
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      flex: 1;
+    }
+
+    .right-column {
+      flex: 2 ;
+      
+    }
+.right-column .offer-card{
+    height: 100%;
+}
+    .offer-card {
+      position: relative;
+      height: 200px;
+      border-radius: 16px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      overflow: hidden;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+      z-index: 1;
+    }
+
+    .offer-text {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .offer-text h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .offer-text a {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+  
+    @media screen and (max-width: 576px) {
+      .offer-section {
+        flex-direction: column;
+      }
+.right-column .offer-card{
+    height: 250px;}
+      .left-column,
+      .right-column {
+        width: 100%;
+      }
+
+      .offer-card {
+        height: 250px;
+      }
+
+      .offer-text h2 {
+        font-size: 1.25rem;
+      }
+      .latest-heading{ font-size: 1.25em;}
+      .latest-deal p{
+    font-size: 0.75em;
+    max-width: 650px;
+    width:100%
+}
+.latest-deal p br{
+    display: none;
+}
+    }
